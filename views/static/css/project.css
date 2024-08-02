@@ -1,7 +1,7 @@
 #wrap { width: 1080px; border: 1px solid red;
     margin: 0 auto }
 nav ul { list-style: none; padding: 0 }
-nav ul li { display: inline; padding: 0 65px }
+nav ul li { display: inline; padding: 0 75px }
 
 a:link { color: black; text-decoration: none; font-weight: bold }
 a:visited { color: black; }
