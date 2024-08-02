@@ -5,7 +5,13 @@
     <title>세미프로젝트</title>
     <link rel="stylesheet" href="/static/css/project.css">
     <style>
-
+        form { border: 1px solid blue; width: 350px;
+            margin: 100px auto; }
+        form label { display: inline-block; width: 120px;
+            text-align: right; font-weight: bold; }
+        form div { margin: 5px 0 }
+        form input { padding: 5px }
+        button{ margin-left: 6px; padding: 5px }
     </style>
 </head>
 <body>
@@ -29,7 +35,7 @@
             <div><lable for="passwd">비밀 번호</lable>
                 <input type="text" name="passwd" id="passwd" required></div>
 
-            <div><button type="button" id="loginbtn">로그인</button></div>
+            <div><label></label><button type="button" id="loginbtn">로그인</button></div>
 
         </form>
     </main>

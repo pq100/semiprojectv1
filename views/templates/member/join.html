@@ -5,7 +5,13 @@
     <title>세미프로젝트</title>
     <link rel="stylesheet" href="/static/css/project.css">
     <style>
-
+        form { border: 1px solid blue; width: 350px;
+            margin: 100px auto; }
+        form label { display: inline-block; width: 120px;
+            text-align: right; font-weight: bold; }
+        form div { margin: 5px 0 }
+        form input { padding: 5px }
+        button{ margin-left: 6px; padding: 5px }
     </style>
 </head>
 <body>
@@ -16,7 +22,7 @@
         <li><a href="">Home</a></li>
         <li><a href="/member/join">회원가입</a></li>
         <li><a href="/member/login">로그인</a></li>
-        <li><a href="/board/list">게시판></a></li>
+        <li><a href="/board/list">게시판</a></li>
         <li><a href="/member/myinfo">회원정보</a></li>
     </ul>
         <hr>
@@ -28,7 +34,7 @@
             <input type="text" name="userid" id="userid"
                 minglength="6" maxlength="18" required></div>
 
-            <div><lable for="passwd">비밀 번호</lable>
+            <div><lable for="passwd">비밀번호</lable>
                 <input type="text" name="passwd" id="passwd"
                        minglength="6" maxlength="18" required></div>
 
@@ -44,7 +50,7 @@
                 <input type="text" name="email" id="email"
                        minglength="6" maxlength="18" required></div>
 
-            <div><button type="submit" id="joinbtn">입력완료</button>
+            <div><label></label><button type="submit" id="joinbtn">입력완료</button>
                 <button type="reset" id="rstbtn">다시입력</button></div>
 
         </form>
